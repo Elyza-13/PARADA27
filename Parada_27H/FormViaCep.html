@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formulario ViaCEP</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <!-- Bibliotecas JS -->
+        <script src="js/jquery-3.7.0.js"></script>
+        <script src="js/jquery.mask.js"></script>
+        <!-- Códigos -->
+        <script src="js/mascara.js"></script>
+        <script src="js/viacep.js"></script>
+    </head>
+
+    <body>
+        <div id="container"> 
+            <h2>Preencha os campos</h2>
+        <div id="box1">
+           
+
+            <label>Nome</label>
+            <input type="text" id="i_nome">
+
+            <label>Sobrenome</label>
+            <input type="text" id="i_sobnome">
+
+            <label>E-mail</label>
+            <input type="text" id="i_email">
+
+            <label>Idade</label>
+            <input type="number" id="i_idade">
+
+            <label>Profissão</label>
+            <input type="text" id="i_prof">
+
+
+
+
+
+        </div>
+
+        <div id="box">
+            <label>CEP</label>
+            <input type="text" id="i_cep" placeholder="00000-000" onblur="pesquisa_cep(this.value)">
+
+            <label>Rua</label>
+            <input type="text" id="i_rua">
+
+            <label>Bairro</label>
+            <input type="text" id="i_bairro">
+
+            <label>Cidade</label>
+            <input type="text" id="i_cidade">
+
+            <label>Estado</label>
+            <input type="text" id="i_estado">
+
+            <input type="submit" value="Cadastrar" id="btt">
+        </div>
+        
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: #AB0D2F;
+}
+
+h2{
+    text-align: center;
+    color: #AB0D2F;
+}
+
+#container{
+    margin: 100px;
+    width: max-content;
+    background-color: #FCD9E1;
+    display: inline-block;
+    
+}
+
+#box1{
+    margin: 30px;
+    background-color: #FCD9E1;
+    color: #AB0D2F;
+    float: left;   
+}
+
+#box{
+    margin: 30px;
+    background-color: #FCD9E1;
+    color: #AB0D2F; 
+    float: right;   
+}
+
+
+
+input:not(#btt){
+    display: block;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 25px;
+}
+
+#btt{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 248px;
+    height: 30px;
+    border: none;
+    background-color: #EF2E58;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#btt:hover{
+    background-color: #F57A95;
+    transition: 2.5s;
+}
